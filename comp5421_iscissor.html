@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Richard, Yan-Chak Li</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Richard Li</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="biography.html">Biography</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="pub.html">Publications</a></div>
+<div class="menu-item"><a href="useful_resources.html">Useful&nbsp;links/resources</a></div>
+<div class="menu-category">Others Mini Project</div>
+<div class="menu-item"><a href="comp5421_iscissor.html">iScissor</a></div>
+<div class="menu-item"><a href="comp5421_face_detection.html">Face&nbsp;Detection</a></div>
+<div class="menu-item"><a href="math4336_img_encrypt.html">Image&nbsp;Encryption</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Richard, Yan-Chak Li</h1>
+</div>
+<h2>iScissor</h2>
+<p><a href="https://github.com/huhrichard/comp5421_iscissor">Github link</a>
+A reimplementation of <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.138.3811&amp;rep=rep1&amp;type=pdf">Intelligent Scissors for Image Composition</a></p>
+<p>By using gradient of image, a graph is built with pixel(node) and edge(magnitude of gradient).
+<br /> A greedy approach - fibonacci heap is used to build the minimum spanning tree, and get the 'shortest path&rsquo; (with low gradient value).</p>
+<h2>How to open?</h2>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+pip install -r requirement.txt
+python main.py
+</pre></div></div>
+<h2>How to use?</h2>
+<h3>Load Image</h3>
+<ul>
+<li><p>Click 'open file&rsquo; and select image file from file browser</p>
+</li>
+</ul>
+<h3>Draw Contour</h3>
+<ul>
+<li><p>Click 'Draw Contour&rsquo; and use mouse to click on image, 'red cross&rsquo; will be shown as marker of your click</p>
+<ul>
+<li><p>Minimum Spanning Tree will be built, contour (shortest path) will be shown following your cursor</p>
+</li></ul>
+</li>
+<li><p>Triple click to stop drawing</p>
+</li>
+</ul>
+<h3>Finish the contour</h3>
+<ul>
+<li><p>Click 'Crop Image&rsquo; after stopped drawing</p>
+<ul>
+<li><p>The contour will be completed by finding shortest path from the last click to the first click</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-03-20 21:37:46 HKT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+(<a href="./comp5421_iscissor.jemdoc">source</a>)
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

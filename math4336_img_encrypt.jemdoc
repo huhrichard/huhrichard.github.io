@@ -1,0 +1,10 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+= Richard, Yan-Chak Li
+
+== Image Encryption, Decryption of Radon Transformed Data
+[https://github.com/huhrichard/math4336_radon_encryption Github link]
+by BEN AYED, Ahmed; LEE Wing Hang; LI Yan Chak
+
+This project is a trial on encryption of images. We found that we can make good use of radon transform to convert the images to be 'unreadable' data, and with random permutation key.
+
+\n Although the images cannot be fully recovered due to inverse problem, the image is still visible for human after decryption.

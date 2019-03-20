@@ -1,0 +1,36 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+= Richard, Yan-Chak Li
+
+== Face Detection with HOG+SVM
+[https://github.com/huhrichard/comp5421_face_detection Github link]
+
+This project is about face detection, by hybrid of feature extraction and supervised learning. The feature extraction used is Histogram of Oriented Gradients (HOG) and linear Support Vector Machine (linear SVM) is used as supervised learning. Both HOG and SVM are VLFeat implemented function on MATLAB.
+
+The training of SVM is as follow:
+. Extracting HOG feature vectors from positive images (image only contain face, size in 36*36)
+. Extracting HOG feature vectors from negative images (scene images, each samples are 36*36 sub-images)
+. Label positive feature vectors as +1, and negative feature vectors as -1
+. Put both positive and negative feature vectors and corresponding label to SVM
+
+Corresponding training code in 'main.m'
+~~~
+{}{}
+% Step 1
+features_pos = get_positive_features( train_path_pos, feature_params );
+
+% Step 2
+features_neg = get_random_negative_features(non_face_scn_path, feature_params, num_negative_examples);
+
+% Step 3
+X = [features_pos, features_neg];
+Y = [ones(size(features_pos,2),1); -1*ones(size(features_neg,2),1)];
+
+% Step 4
+[w, b] = vl_svmtrain(X, Y, lambda);
+~~~
+
+Example Image:
+(Yellow box: groundtruth, Green box: True Positive, Red box: False Positive)
+~~~
+{}{img_left}{comp5421_face_detection/detections_Argentina.jpg.png}{test image}{}{}{}
+~~~

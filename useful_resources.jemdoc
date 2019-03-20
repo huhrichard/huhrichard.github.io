@@ -1,0 +1,12 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+= Richard, Yan-Chak Li
+
+~~~
+*[http://colah.github.io/posts/2015-09-Visual-Information/ Visual Information Theory -- colah's blog]*
+\nThis gived geometric interpretation of information theory, rather than just compute with probabilities.
+~~~
+
+~~~
+*[http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/ Neural Networks, Manifolds, and Topology -- colah's blog]*
+\nThis visualized the transformations by neural networks, which we thought was kind of blackbox.
+~~~

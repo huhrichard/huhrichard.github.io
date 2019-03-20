@@ -1,0 +1,247 @@
+<html>
+<head>
+<title>COMP 5421 Project 2</title>
+<link href='http://fonts.googleapis.com/css?family=Nunito:300|Crimson+Text|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" title="Default" href="styles/github.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<link rel="stylesheet" href="highlighting/styles/default.css">
+<script src="highlighting/highlight.pack.js"></script>
+
+<style type="text/css">
+body {
+	margin: 0px;
+	width: 100%;
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	background: #fcfcfc;
+}
+h1 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+	font-size: 28px;
+	margin: 25px 0px 0px 0px;
+	text-transform: lowercase;
+
+}
+
+h2 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+	font-size: 32px;
+	margin: 15px 0px 35px 0px;
+	color: #333;
+	word-spacing: 3px;
+}
+
+h3 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+	font-size: 26px;
+	margin: 10px 0px 10px 0px;
+	color: #333;
+	word-spacing: 2px;
+}
+h4 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+	font-size: 22px;
+	margin: 10px 0px 10px 0px;
+	color: #333;
+	word-spacing: 2px;
+}
+
+h5 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	margin: 10px 0px 10px 0px;
+	color: #111;
+	word-spacing: 2px;
+}
+
+p, li {
+	color: #444;
+}
+
+a {
+	color: #DE3737;
+}
+
+.container {
+	margin: 0px auto 0px auto;
+	width: 1160px;
+}
+
+#header {
+	background: #333;
+	width: 100%;
+}
+
+#headersub {
+	color: #ccc;
+	width: 960px;
+	margin: 0px auto 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+
+.chart {
+	width: 480px;
+}
+.lol {
+	font-size: 16px;
+	color: #888;
+	font-style: italic;
+}
+.sep {
+	height: 1px;
+	width: 100%;
+	background: #999;
+	margin: 20px 0px 20px 0px;
+}
+.footer{
+	font-size: 16px;
+}
+.latex {
+	width: 100%;
+}
+
+.latex img {
+	display: block;
+	margin: 0px auto 0px auto;
+}
+
+pre {
+	font-family: 'Droid Sans Mono';
+	font-size: 14px;
+}
+
+table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+table td img {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#contents a {
+}
+</style>
+<script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+</script>
+</head>
+<body>
+<div id="header" >
+<div id="headersub">
+<h1>Li Yan Chak <span style="color: #DE3737"></span></h1>
+</div>
+</div>
+<div class="container">
+
+<h2>COMP 5421 Project 2 Face Detection with a Multiscale Sliding Window</h2>
+
+<div style="float: right; padding: 20px">
+<img src="detections_ysato.jpg.png" />
+<p style="font-size: 14px">Example of face detection.</p>
+</div>
+
+<p> This project is about face detection, by hybrid of feature extraction and supervised learning. The feature extraction used is Histogram of Oriented Gradients (HOG) and linear Support Vector Machine (linear SVM) is used as supervised learning. Both HOG and SVM are VLFeat implemented function and we implement the whole project on MATLAB.</p>
+
+<h3> The training of SVM is as follow:</h3>
+
+<ol>
+<li>Extracting <b>HOG feature</b> vectors from <b>positive</b> images (image only contain face, size in 36*36)</li>
+<li>Extracting <b>HOG feature</b> vectors from <b>negative</b> images (scene images, each samples are 36*36 sub-images)</li>
+<li>Label positive feature vectors as +1, and negative feature vectors as -1</li>
+<li>Put both positive and negative feature vectors and corresponding label to <b>SVM</b></li>
+</ol>
+
+<pre><code>
+% Step 1
+features_pos = get_positive_features( train_path_pos, feature_params );
+
+% Step 2
+features_neg = get_random_negative_features( non_face_scn_path, feature_params, num_negative_examples);
+
+% Step 3
+X = [features_pos, features_neg];
+Y = [ones(size(features_pos,2),1); -1*ones(size(features_neg,2),1)];
+
+% Step 4
+[w, b] = vl_svmtrain(X, Y, lambda);
+
+</code></pre>
+
+<h3>Detection:</h3>
+
+<p>After optimizing parameter <b>w</b> and b of linear SVM, multiscale sliding windows detection is implemented. Also non-maximum suppression is used to prevent overlapped detection.</p>
+
+<pre><code>
+[bboxes, confidences, image_ids] = run_detector(test_scn_path, w, b, feature_params, threshold);
+
+</code></pre>
+
+<!-- <div style="clear:both">
+<h3>Example heading</h3>
+
+<p> 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h2>Example of code with highlighting</h2>
+The javascript in the <code>highlighting</code> folder is configured to do syntax highlighting in code blocks such as the one below.<p>
+
+<pre><code>
+%example code
+for i = 1:length(offset)
+    source = imread(sprintf('%s/source_%02d.jpg',data_dir,i));
+    mask   = imread(sprintf('%s/mask_%02d.jpg',data_dir,i));
+    target = imread(sprintf('%s/target_%02d.jpg',data_dir,i));
+
+</code></pre>
+ -->
+<!-- <h3>Results in a table</h3>
+
+<table border=1>
+<tr>
+<td>
+<img src="placeholder.jpg" width="24%"/>
+<img src="placeholder.jpg"  width="24%"/>
+<img src="placeholder.jpg" width="24%"/>
+<img src="placeholder.jpg" width="24%"/>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="placeholder.jpg" width="24%"/>
+<img src="placeholder.jpg"  width="24%"/>
+<img src="placeholder.jpg" width="24%"/>
+<img src="placeholder.jpg" width="24%"/>
+</td>
+</tr>
+
+</table>
+ -->
+<center>
+<p>
+Face template HoG visualization.
+<p>
+<img src="hog_template.png">
+<p>
+Precision Recall curve.
+<p>
+<img src="average_precision.png">
+<p>
+Example of detection on the test set.
+<p>
+<img src="detections_Argentina.jpg.png">
+
+</center>
+
+<!-- <div style="clear:both" >
+<p> 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div> -->
+</body>
+</html>
