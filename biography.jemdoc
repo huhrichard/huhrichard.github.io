@@ -2,22 +2,32 @@
 = Richard, Yan-Chak Li
 
 == Biography
-*Richard Li* received Dean of Engineering Scholarship, when he was admitted into [https://www.ust.hk/ The Hong Kong University of Science and Technology (HKUST)] in 2013. 
-He received his Bachelor degree in [http://cpeg.ust.hk/cgi-bin/eng/index.php Computer Engineering] in 2017 from [https://www.ust.hk/ HKUST]. 
-His undergraduate study was combined with Applied Mathematics, Computer Science and Electronic Engineering. 
-He joined [https://urop.ust.hk/ Undergraduate Research Opportunities Program (UROP)] under supervision of Prof. [http://kehlam.people.ust.hk/index.html Henry H. N. Lam] in 2017 Summer. 
-The work was orally presented in Asia-Oceania Mass Spectrometry Conference 2017 with Young Scientist Travel Award.
+*Richard Li* received Dean of Engineering Scholarship, when he was admitted to [https://www.ust.hk/ The Hong Kong University of Science and Technology (HKUST)] in 2013.
+He received his in [http://cpeg.ust.hk/cgi-bin/eng/index.php B.Eng. in Computer Engineering] in 2017 and [https://bien.ust.hk/ M.Phil. in Bioengineering] in 2019, both are from [https://www.ust.hk/ HKUST].
+His undergraduate study combined Applied Mathematics, Computer Science and Electronic Engineering.
 \n
-\n Currently, he is a M.Phil. student major in [https://bien.ust.hk/ Bioengineering] in [https://www.ust.hk/ HKUST].
-His thesis project is building an automatic vertebral edge detection tool via Deep Learning under supervision of [https://www.ielm.ust.hk/dfaculty/so/ Prof. Richard H.Y. So].
+He joined [https://urop.ust.hk/ Undergraduate Research Opportunities Program (UROP)] under supervision of Prof. [http://kehlam.people.ust.hk/index.html Henry H. N. Lam] in 2017 Summer.
+The work was orally presented in Asia-Oceania Mass Spectrometry Conference 2017 with Young Scientist Travel Award.
+His master thesis project was building an automatic vertebral edge detection tool via Deep Learning under supervision of [https://www.ielm.ust.hk/dfaculty/so/ Prof. Richard H.Y. So].
 Preliminary results will be orally presented in European Society for Clinical Investigation Congress (ESCI Congress) 2019 in Portugal.
+
+Currently, he work as a Bioinformatician in [https://labs.icahn.mssm.edu/pandeylab/ Pandey's Lab, Icahn School of Medicine at Mount Sinai],
+exploring and analyzing biomedical data by machine learning techniques.
+Various machine learning techniques from conventional to modern deep learning are applied for different data and different purposes.
 
 == C.V.
 [CV.pdf Detailed in PDF]
 
+== Experience
+- Bioinformatician,
+[https://icahn.mssm.edu/research/genomics Department of Genetics & Genomic Sciences],
+[https://icahn.mssm.edu/ Icahn School of Medicine at Mount Sinai]
+-- Nov. 2019 to present
+-- Supervised by [https://labs.icahn.mssm.edu/pandeylab/ Prof. Gaurav Pandey].
+
 == Education
 - [https://bien.ust.hk/ M.Phil. in Bioengineering (BIEN)], [https://www.ust.hk/ The Hong Kong University of Science and Technology]
--- Sep. 2017 to present
+-- Sep. 2017 to Aug 2019
 -- Supervised by [https://www.ieda.ust.hk/dfaculty/so/ Prof. Richard H.Y. So].
 -- Teaching Assistant of [https://www.ieda.ust.hk/dfaculty/so/so_ie2100E.html IELM2100E Computing and Industrial Applications @Spring2018]
 - [http://cpeg.ust.hk/cgi-bin/eng/index.php B.Eng. in Computer Engineering (CPEG)], [https://www.ust.hk/ The Hong Kong University of Science and Technology]
@@ -25,23 +35,23 @@ Preliminary results will be orally presented in European Society for Clinical In
 -- Minor in Mathematics
 
 == Research Interests
+- Bioinformatics
 - Medical Image Analysis
 - Computer Vision
-- Bioinformatics
+
 
 == Non-research Interests
 - Hiking
 - Bowling
-- Mobile Gaming
+- Gaming
 
 == Languages
 - Human Languages:
 -- Cantonese
 -- English
--- Putonghua (intermediate)
+-- Mandarin (intermediate)
 - Programming Languages:
 -- Python
---- Numpy, OpenCV, PyTorch, etc.
+--- Numpy, OpenCV, PyTorch, Scikit-learn etc.
 -- MATLAB
--- C/C\+\+
--- CUDA C (intermediate)
+-- C/C\+\+, CUDA C, R (intermediate)

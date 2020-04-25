@@ -17,7 +17,7 @@ def find(pattern, path):
 def main(argv):
     jemList = find('*.jemdoc','./')
     for jemdoc in jemList:
-        print jemdoc
+        print(jemdoc)
         subprocess.call(['jemdoc.py', jemdoc])
 
 if __name__ == '__main__':
