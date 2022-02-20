@@ -65,7 +65,7 @@ import os
 num_pubs = len(list(publications.iterrows()))
 
 for row, item in publications.iterrows():
-    fn = str(num_pubs - row) + "-" + str(item.pub_date) + "-" + item.url_slug
+    fn = str(item.pub_date) + "-" + item.url_slug
     
     md_filename = fn + ".md"
     html_filename = fn

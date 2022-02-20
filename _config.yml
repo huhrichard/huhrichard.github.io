@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Yan-Chak (Richard) Li"
   avatar           : "profile.png"
-  bio              : "Bioinformatician at Icahn School of Medicine at Mount Sinai"
+  bio              : "Bioinformatician @ Icahn School of Medicine at Mount Sinai"
   location         : "New York City/Hong Kong"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=x7bGXmUAAAAJ&hl=en"
   email            : "yan-chak.li@mssm.edu"
   researchgate     : "https://www.researchgate.net/profile/Richard-Li-38"
