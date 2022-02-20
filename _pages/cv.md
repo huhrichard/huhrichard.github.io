@@ -19,12 +19,13 @@ Work experience
 * Nov 2019 to present: Bioinformatician
   * [Department of Genetics & Genomic Sciences](https://icahn.mssm.edu/research/genomics),
 [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/)
-  * Develop machine learning methods to analyze biomedical data.
+  * Developing machine learning methods to analyze biomedical data.
   * Teaching assistant of 'Machine Learning for Biomedical Data Science' (Spring I 2020 & 2021)
   * Supervisor: [Prof. Gaurav Pandey](https://labs.icahn.mssm.edu/pandeylab/).
 
 * Sep 2019 to Oct 2019: Consultant
-  * Develop Smart Fever Screening System (SFSS)
+  * [Department of Industrial Engineering & Decison Analytics](https://ieda.ust.hk/)
+  * Developing Smart Fever Screening System (SFSS)
   * Supervisor: [Prof. Richard H.Y. So](https://www.ieda.ust.hk/dfaculty/so/)
 
 * Jun 2015 to Aug 2015: Summer Intern
@@ -37,7 +38,7 @@ Work experience
 
 * Jun 2013 to Aug 2013: Technical Support
   * SkyWare Communication Limited
-  * Network maintenance and testing new firmware and hardwares.
+  * Network maintenance and test new firmware and hardwares.
   
 Skills
 ======
@@ -56,8 +57,8 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
+<!-- Talks
+====== -->
 <!--   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul> -->
