@@ -57,11 +57,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-<!-- Talks
-====== -->
-<!--   <ul>{% for post in site.talks %}
+Talks/Conference Presentations
+======
+  <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul>
   
 Teaching
 ======
