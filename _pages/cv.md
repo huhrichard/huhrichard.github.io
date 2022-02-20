@@ -52,9 +52,9 @@ Skills
 
 Publications
 ======
-<!--   <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul>
   
 Talks
 ======
@@ -68,11 +68,11 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
 * Spring I 2020 & 2021: Teaching Assistant
-  * [https://icahn.mssm.edu/ Icahn School of Medicine at Mount Sinai]
-  * 'Machine Learning for Biomedical Data Science'
+  * [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/)
+  * BMI3002 Machine Learning for Biomedical Data Science
 
 * Spring I 2018 & 2019: Teaching Assistant
-  * [https://icahn.mssm.edu/ Icahn School of Medicine at Mount Sinai]
-  * https://www.ieda.ust.hk/dfaculty/so/so_ie2100E.html IELM/IEDA2100E Computing and Industrial Applications
+  * [Department of Industrial Engineering & Decison Analytics](https://ieda.ust.hk/)
+  * [IELM/IEDA2100E Computing and Industrial Applications](https://www.ieda.ust.hk/dfaculty/so/so_ie2100E.html)
   
 
