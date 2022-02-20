@@ -1,7 +1,7 @@
 ---
 title: "Machine learning–driven identification of early-life air toxic combinations associated with childhood asthma outcomes"
 collection: publications
-permalink: /publication/1-2021-10-05-asthma-deep
+permalink: /publication/3-2021-10-05-asthma-deep
 date: 2021-10-05
 venue: 'The Journal of Clinical Investigation'
 paperurl: 'https://www.jci.org/articles/view/152088'
