@@ -21,7 +21,7 @@ Work experience
 [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/)
   * Developing machine learning methods to analyze biomedical data.
   * Teaching assistant of 'Machine Learning for Biomedical Data Science' (Spring I 2020 & 2021)
-  * Supervisor: [Prof. Gaurav Pandey](https://labs.icahn.mssm.edu/pandeylab/).
+  * Supervisor: [Prof. Gaurav Pandey](https://gpandeylab.org/).
 
 * Sep 2019 to Oct 2019: Consultant
   * [Department of Industrial Engineering & Decison Analytics](https://ieda.ust.hk/)
