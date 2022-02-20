@@ -59,7 +59,7 @@ Publications
   
 Talks/Conference Presentations
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
@@ -73,7 +73,7 @@ Teaching
   * BMI3002 Machine Learning for Biomedical Data Science
 
 * Spring I 2018 & 2019: Teaching Assistant
-  * [Department of Industrial Engineering & Decison Analytics](https://ieda.ust.hk/)
+  * [Department of Industrial Engineering & Decison Analytics, The Hong Kong University of Science and Technology](https://ieda.ust.hk/)
   * [IELM/IEDA2100E Computing and Industrial Applications](https://www.ieda.ust.hk/dfaculty/so/so_ie2100E.html)
   
 
