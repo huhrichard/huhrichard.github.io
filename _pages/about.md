@@ -15,7 +15,7 @@ His undergraduate study combined Applied Mathematics, Computer Science and Elect
 
 Currently, he works as a Bioinformatician in [Pandey's Lab](https://gpandeylab.org/), [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/)
 exploring and analyzing biomedical data by machine learning techniques.
-Various machine learning techniques from conventional to modern deep learning are applied for different data and different purposes.
+Various machine learning techniques from conventional to modern are applied for different biomedical data, eg. discovering combination of air pollutant leading to childhood asthmatic outcomes, protein function predictions by multimodal data, etc.
 
 Research Interest
 ------
@@ -23,6 +23,11 @@ Research Interest
 * Computational Biology & Bioinformatics
 * Computer Vision & Medical Image Analysis
 
+Other than research
+------
+* Hiking, Cycling
+* Games: Pokemon VGC, Gundam EXVS Series, board games etc.
+* Anime especially Mecha
 
 
 

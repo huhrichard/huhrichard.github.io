@@ -34,11 +34,11 @@ Work experience
 
 * Feb 2015 to May 2015: Part-time Tutor
   * Pigeon City Creative Computing Training Centre
-  * Teaching students to develop programmable LEGO and mini-games.
+  * Teaching students to build their own programmable LEGO and mini-games.
 
 * Jun 2013 to Aug 2013: Technical Support
   * SkyWare Communication Limited
-  * Network maintenance and test new firmware and hardwares.
+  * Network maintenance and testing new firmwares and hardwares.
   
 Skills
 ======
@@ -76,4 +76,11 @@ Teaching
   * [Department of Industrial Engineering & Decison Analytics, The Hong Kong University of Science and Technology](https://ieda.ust.hk/)
   * [IELM/IEDA2100E Computing and Industrial Applications](https://www.ieda.ust.hk/dfaculty/so/so_ie2100E.html)
   
+
+Academic Services
+======
+* Conference Reviewer:
+  * IEEE Big Data 2020
+  * ACM-BCB 2021
+  * ISMB 2022
 
