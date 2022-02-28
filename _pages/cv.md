@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * [M.Phil. in Bioengineering (BIEN)](https://bien.ust.hk/), [The Hong Kong University of Science and Technology](https://www.ust.hk/), 2019
-* [B.Eng. in Computer Engineering (CPEG)](http://cpeg.ust.hk/cgi-bin/eng/index.php), [The Hong Kong University of Science and Technology](https://www.ust.hk/), Minor in Mathematics, 2017
+* [B.Eng. in Computer Engineering (CPEG)](http://cpeg.ust.hk/cgi-bin/eng/index.php), Minor in Mathematics, [The Hong Kong University of Science and Technology](https://www.ust.hk/), 2017
 
 Work experience
 ======
