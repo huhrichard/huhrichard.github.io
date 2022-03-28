@@ -27,6 +27,8 @@ Other than research
 * Games: Pokemon VGC, Gundam EXVS Series, board games etc.
 * Anime especially Mecha
 
+{% twitter https://twitter.com/rlychuh maxwidth=500 limit=5 %}
+
 
 
 
