@@ -13,12 +13,8 @@ Education
 ======
 * [M.Phil. in Bioengineering (BIEN)](https://bien.ust.hk/), [The Hong Kong University of Science and Technology](https://www.ust.hk/), 2019
   * Thesis: 'Deep Learning Enables Instance Edge Detection of Vertebral Bodies on X-ray Images'
-  * Supervisor: [Prof. Richard H.Y. So](https://www.ieda.ust.hk/dfaculty/so/)
-* [B.Eng. in Computer Engineering (CPEG)](http://cpeg.ust.hk/cgi-bin/eng/index.php), Minor in Mathematics, [The Hong Kong University of Science and Technology](https://www.ust.hk/), 2017
-  * SUG mentor of Hall II (Vertex), 2016-2017
-  * Student Helper, Computer Science System Office, 2016-2017
-  * Student Helper, Institute of Emerging Market Studies, 2015-2017
-  * President of Nature Club, HKUSTSU, 2014-2015
+* [B.Eng. in Computer Engineering (CPEG)](http://cpeg.ust.hk/cgi-bin/eng/index.php), [The Hong Kong University of Science and Technology](https://www.ust.hk/), 2017
+  * Minor in Mathematics
 
 Work experience
 ======
@@ -90,4 +86,11 @@ Academic Services
   * ACM-BCB 2021
   * ISMB 2022
   * ACM-SIGKDD 2022
+
+Volunteer/Part-time Services
+======
+* SUG mentor of Hall II (Vertex), HKUST, 2016-2017
+* Student Helper, Computer Science System Office, HKUST, 2016-2017
+* Student Helper, Institute of Emerging Market Studies, HKUST, 2015-2017
+* President, Nature Club, HKUSTSU, 2014-2015
 
