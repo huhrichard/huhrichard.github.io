@@ -84,10 +84,9 @@ Academic Services
 * Conference Reviewer:
   * IEEE Big Data 2020
   * ACM-BCB 2021
-  * ISMB 2022
-  * ACM-SIGKDD 2022
+  * ISMB 2022, ACM-SIGKDD 2022
 
-Volunteer/Part-time Services
+Voluntary Services/Part-time Jobs
 ======
 * SUG mentor of Hall II (Vertex), HKUST, 2016-2017
 * Student Helper, Computer Science System Office, HKUST, 2016-2017
