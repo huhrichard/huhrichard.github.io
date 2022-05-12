@@ -95,5 +95,4 @@ Voluntary Services/Part-time Job Experiences
 * President, Nature Club, HKUSTSU, 2014-2015
 
 [CV in PDF](../files/CV_yanchakli_7Apr2022.pdf)
-
-<object data="../files/CV_yanchakli_7Apr2022.pdf" type="application/pdf" width="100%"></object>
+======
