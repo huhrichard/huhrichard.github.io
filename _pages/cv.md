@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[CV in PDF](./CV_yanchakli_7Apr2022.pdf)
+
 Education
 ======
 * [M.Phil. in Bioengineering (BIEN)](https://bien.ust.hk/), [The Hong Kong University of Science and Technology](https://www.ust.hk/), 2019
@@ -86,7 +88,7 @@ Academic Services
   * ACM-BCB 2021
   * ISMB 2022, ACM-SIGKDD 2022
 
-Voluntary Services/Part-time Jobs
+Voluntary Services/Part-time Job Experiences
 ======
 * SUG mentor of Hall II (Vertex), HKUST, 2016-2017
 * Student Helper, Computer Science System Office, HKUST, 2016-2017

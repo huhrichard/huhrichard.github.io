@@ -24,8 +24,8 @@ Research Interest
 Other than research
 ------
 * Bowling, Cycling, Hiking
-* Games: (Competitive) Pokemon VGC, Gundam EXVS Series, board games etc.
-* Anime especially Mecha
+* (Competitive) Pokemon VGC, Gundam EXVS Series, board games etc.
+* Mecha
 
 
 
