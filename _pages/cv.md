@@ -51,7 +51,7 @@ Skills
     * Numpy, OpenCV, Pytorch, Scikit-learn, Pandas etc.
   * MATLAB
   * R
-  * C, C++, CUDA C (intermediate)
+  * C, C++, CUDA C, LaTeX (intermediate)
   * HTML, javascript (beginner) 
 
 Publications
