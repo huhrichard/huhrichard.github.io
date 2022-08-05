@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-*Yan Chak (Richard)  Li*, a Hong Kong native received Dean of Engineering Scholarship, when he was admitted to [The Hong Kong University of Science and Technology (HKUST)](https://www.ust.hk/){:target="_blank"} in 2013.
+*Yan Chak (Richard)  Li*, a Hong Kong native received Dean of Engineering Scholarship, when he was admitted to [The Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/){:rel="noreferrer noopener" } in 2013.
 He received his in [B.Eng. in Computer Engineering](http://cpeg.ust.hk/cgi-bin/eng/index.php) in 2017 and [M.Phil. in Bioengineering](https://bien.ust.hk/) in 2019, both are from [HKUST](https://www.ust.hk/).
 His undergraduate study combined Applied Mathematics, Computer Science and Electronic Engineering. He joined [Undergraduate Research Opportunities Program (UROP)](https://urop.ust.hk/) under supervision of Prof. [Henry H. N. Lam](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=henry-hei-ning-lam-kehlam) in 2017 Summer. His master thesis project was building an automatic vertebral edge detection method via Deep Learning under supervision of [Prof. Richard H.Y. So](https://www.ieda.ust.hk/dfaculty/so/).
 
