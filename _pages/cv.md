@@ -80,10 +80,21 @@ Teaching
   * [IELM/IEDA2100E Computing and Industrial Applications](https://www.ieda.ust.hk/dfaculty/so/so_ie2100E.html)
   
 
+Skills
+======
+* Machine learning model development
+* Programming Languages:
+  * Python
+    * Numpy, OpenCV, Pytorch, Scikit-learn, Pandas etc.
+  * MATLAB
+  * R
+  * C, C++, CUDA C, LaTeX (intermediate)
+  * HTML, javascript (beginner) 
+
 Academic Services
 ======
 * Conference Reviewer:
-  * IEEE Big Data 2020
+  * IEEE Big Data 2020, 2022
   * ACM-BCB 2021
   * ISMB 2022, ACM-SIGKDD 2022
 
