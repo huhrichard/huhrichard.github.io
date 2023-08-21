@@ -22,38 +22,28 @@ Work experience
 * Nov 2019 to present: Bioinformatician
   * [Department of Genetics & Genomic Sciences](https://icahn.mssm.edu/research/genomics),
 [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/)
-  * Developing machine learning methods to analyze biomedical data.
-  * Teaching assistant of 'Machine Learning for Biomedical Data Science' (Spring I 2020 & 2021)
+  * Develop machine learning methods to analyze biomedical data.
+  * Design website to share and visualize data resources to the public domain.
+  * Teaching assistant of 'Machine Learning for Biomedical Data Science' (Spring I 2020 & 2021).
   * Supervisor: [Prof. Gaurav Pandey](https://gpandeylab.org/).
 
 * Aug 2019 to Oct 2019: Consultant
   * [Department of Industrial Engineering & Decison Analytics](https://ieda.ust.hk/),[The Hong Kong University of Science and Technology](https://www.ust.hk/)
-  * Developing Smart Fever Screening System with ZED stereo camera & FLIR thermal camera
+  * Develop Smart Fever Screening System with ZED stereo camera & FLIR thermal camera
   * Supervisor: [Prof. Richard H.Y. So](https://www.ieda.ust.hk/dfaculty/so/)
 
 * Jun 2015 to Aug 2015: Summer Intern
   * Hong Kong Telecom (HKT) Limited
-  * Summarizing up-to-date anti-DDoS solution.
+  * Summarize up-to-date anti-DDoS solution.
 
 * Feb 2015 to May 2015: Part-time Tutor
   * Pigeon City Creative Computing Training Centre
-  * Teaching students to build their own programmable LEGO and mini-games.
+  * Teach students to build their own programmable LEGO and mini-games.
 
 * Jun 2013 to Aug 2013: Technical Support
   * SkyWare Communication Limited
   * Network maintenance and testing new firmwares and hardwares.
   
-Skills
-======
-* Machine learning model development
-* Programming Languages:
-  * Python
-    * Numpy, OpenCV, Pytorch, Scikit-learn, Pandas etc.
-  * MATLAB
-  * R
-  * C, C++, CUDA C, LaTeX (intermediate)
-  * HTML, javascript (beginner) 
-
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -84,18 +74,18 @@ Skills
 ======
 * Machine learning model development
 * Programming Languages:
-  * Python
-    * Numpy, OpenCV, Pytorch, Scikit-learn, Pandas etc.
-  * MATLAB
-  * R
-  * C, C++, CUDA C, LaTeX, HTML, javascript (intermediate)
+  * Python: Numpy, OpenCV, Pytorch, Scikit-learn, Pandas etc.
+  * R, R Markdown
+  * Javascript, Vue.js
+  * MATLAB, C, C++, CUDA C
 
 Academic Services
 ======
 * Conference Reviewer:
   * IEEE Big Data 2020, 2022
-  * ACM-BCB 2021
-  * ISMB 2022, ACM-SIGKDD 2022
+  * ACM-BCB 2021-2023
+  * ISMB 2022, 2023
+  * ACM-SIGKDD 2022
 
 Voluntary Services/Part-time Job Experiences
 ======
