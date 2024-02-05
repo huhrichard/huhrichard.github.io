@@ -78,6 +78,10 @@ Skills
   * R, R Markdown
   * Javascript, Vue.js
   * MATLAB, C, C++, CUDA C
+* Others:
+  * High Performance Computing, Oracle Cloud, Google Cloud
+  * Firebase, Basic SQL
+  * Google Analytics
 
 Academic Services
 ======
