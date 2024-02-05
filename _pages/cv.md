@@ -23,7 +23,7 @@ Work experience
   * [Department of Genetics & Genomic Sciences](https://icahn.mssm.edu/research/genomics),
 [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/)
   * Develop machine learning methods to analyze biomedical data.
-  * Design website to share and visualize data resources to the public domain.
+  * Design website to share and visualize data resources to the general public.
   * Teaching assistant of 'Machine Learning for Biomedical Data Science' (Spring I 2020 & 2021).
   * Supervisor: [Prof. Gaurav Pandey](https://gpandeylab.org/).
 
@@ -34,15 +34,15 @@ Work experience
 
 * Jun 2015 to Aug 2015: Summer Intern
   * Hong Kong Telecom (HKT) Limited
-  * Summarize up-to-date anti-DDoS solution.
+  <!-- * Summarize up-to-date anti-DDoS solution. -->
 
 * Feb 2015 to May 2015: Part-time Tutor
   * Pigeon City Creative Computing Training Centre
-  * Teach students to build their own programmable LEGO and mini-games.
+  <!-- * Teach students to build their own programmable LEGO and mini-games. -->
 
 * Jun 2013 to Aug 2013: Technical Support
   * SkyWare Communication Limited
-  * Network maintenance and testing new firmwares and hardwares.
+  <!-- * Network maintenance and testing new firmwares and hardwares. -->
   
 Publications
 ======
@@ -94,5 +94,5 @@ Voluntary Services/Part-time Job Experiences
 * Student Helper, Institute of Emerging Market Studies, HKUST, 2015-2017
 * President, Nature Club, HKUSTSU, 2014-2015
 
-[CV in PDF](../files/CV_yanchakli_6Jun2022.pdf)
+[CV in PDF](../files/CV_yanchakli_4feb2024.pdf)
 ======
