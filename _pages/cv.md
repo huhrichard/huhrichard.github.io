@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+CV in PDF
+=====
+[Open here](../files/CV_yanchakli_22Oct2024.pdf)
 
 Education
 ======
@@ -98,5 +101,5 @@ Voluntary Services/Part-time Job Experiences
 * Student Helper, Institute of Emerging Market Studies, HKUST, 2015-2017
 * President, Nature Club, HKUSTSU, 2014-2015
 
-[CV in PDF](../files/CV_yanchakli_4feb2024.pdf)
+
 ======
