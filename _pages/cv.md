@@ -9,9 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-CV in PDF
-=====
-[Open here](../files/CV_yanchakli_22Oct2024.pdf)
+[Detail in PDF](../files/CV_yanchakli_22Oct2024.pdf)
 
 Education
 ======
