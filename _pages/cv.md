@@ -20,7 +20,7 @@ Education
 
 Work experience
 ======
-* Nov 2019 to present: Bioinformatician
+* Nov 2019 to Nov 2025: Bioinformatician
   * [Department of Genetics & Genomic Sciences](https://icahn.mssm.edu/research/genomics),
 [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/)
   * Develop machine learning methods to analyze biomedical data.
