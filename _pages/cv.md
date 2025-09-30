@@ -20,7 +20,11 @@ Education
 
 Work experience
 ======
-* Nov 2019 to Nov 2025: Bioinformatician
+* May 2025 to Oct 2025: Consultant
+  * [Department of Genetics & Genomic Sciences](https://icahn.mssm.edu/research/genomics)
+  * Develop online data visualization for clinical studies.
+
+* Nov 2019 to Nov 2024: Bioinformatician
   * [Department of Genetics & Genomic Sciences](https://icahn.mssm.edu/research/genomics),
 [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/)
   * Develop machine learning methods to analyze biomedical data.
