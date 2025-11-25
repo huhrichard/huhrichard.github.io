@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Detail in PDF](../files/CV_yanchakli_22Oct2024.pdf)
+[Detail in PDF](../files/CV_yanchakli_25Nov2025.pdf)
 
 Education
 ======
@@ -20,10 +20,18 @@ Education
 
 Work experience
 ======
+* Nov 2025 to Now: Data Science Analyst I
+  * [Department of Genetics & Genomic Sciences](https://icahn.mssm.edu/research/genomics),
+[Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/)
+  * Apply machine learning and statistical method to analyze biomedical data.
+  * Develop online data visualization for SunBEAm-ABC.
+  * Supervisor: [Prof. Supinda Bunyavanich](https://bunyavanich.org/).
+
 * May 2025 to Oct 2025: Consultant
   * [Department of Genetics & Genomic Sciences](https://icahn.mssm.edu/research/genomics),
 [Icahn School of Medicine at Mount Sinai](https://icahn.mssm.edu/)
   * Develop online data visualization for clinical studies.
+  * Supervisor: [Prof. Pei Wang](https://labs.icahn.mssm.edu/pei-wang-lab/).
 
 * Nov 2019 to Nov 2024: Bioinformatician
   * [Department of Genetics & Genomic Sciences](https://icahn.mssm.edu/research/genomics),
@@ -34,7 +42,7 @@ Work experience
   * Supervisor: [Prof. Gaurav Pandey](https://gpandeylab.org/).
 
 * Aug 2019 to Oct 2019: Consultant
-  * [Department of Industrial Engineering & Decison Analytics](https://ieda.ust.hk/),[The Hong Kong University of Science and Technology](https://www.ust.hk/)
+  * [Department of Industrial Engineering & Decison Analytics](https://ieda.ust.hk/), [The Hong Kong University of Science and Technology](https://www.ust.hk/)
   * Develop Smart Fever Screening System with ZED stereo camera & FLIR thermal camera
   * Supervisor: [Prof. Richard H.Y. So](https://www.ieda.ust.hk/dfaculty/so/)
 
